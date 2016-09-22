@@ -1,0 +1,174 @@
+INFO 2016-06-30 08:14:18,108 (PropertiesHandler.java:32) - source.name:jdbc/WeiXinMallDB
+DEBUG 2016-06-30 08:14:29,020 (GetQueryResult.java:79) - 请求参数列表: infoType=门店显示
+DEBUG 2016-06-30 08:14:29,022 (GetQueryResult.java:79) - 请求参数列表: engine=static
+INFO 2016-06-30 08:14:29,049 (QueryingSQLGenerator.java:180) - SELECT ID, MingCheng, LogoURL FROM mendian WHERE TingYong= FALSE AND ShiFouShengXiao= TRUE ORDER BY QuanZhong DESC LIMIT 5
+DEBUG 2016-06-30 08:14:29,050 (GetQueryResult.java:175) - SELECT ID, MingCheng, LogoURL FROM mendian WHERE TingYong= FALSE AND ShiFouShengXiao= TRUE ORDER BY QuanZhong DESC LIMIT 5
+INFO 2016-06-30 08:14:29,062 (PropertiesHandler.java:32) - source.name:jdbc/WeiXinMallDB
+INFO 2016-06-30 08:14:29,229 (GetQueryResult.java:209) - 查询没有返回任何结果！
+DEBUG 2016-06-30 08:14:29,466 (GetQueryResult.java:79) - 请求参数列表: infoType=商品显示
+DEBUG 2016-06-30 08:14:29,467 (GetQueryResult.java:79) - 请求参数列表: engine=static
+INFO 2016-06-30 08:14:29,467 (QueryingSQLGenerator.java:180) - SELECT ID, MingCheng, JiaGe, DanWei, ImgURL FROM shangpin WHERE TingYong= FALSE ORDER BY QuanZhong DESC LIMIT 10
+DEBUG 2016-06-30 08:14:29,468 (GetQueryResult.java:175) - SELECT ID, MingCheng, JiaGe, DanWei, ImgURL FROM shangpin WHERE TingYong= FALSE ORDER BY QuanZhong DESC LIMIT 10
+INFO 2016-06-30 08:14:29,469 (PropertiesHandler.java:32) - source.name:jdbc/WeiXinMallDB
+DEBUG 2016-06-30 08:14:29,592 (GetQueryResult.java:79) - 请求参数列表: infoType=所有活动
+DEBUG 2016-06-30 08:14:29,592 (GetQueryResult.java:79) - 请求参数列表: engine=static
+INFO 2016-06-30 08:14:29,593 (QueryingSQLGenerator.java:180) - SELECT ID, MingCheng, ShuoMing, ImgURL FROM huodong WHERE TingYong= FALSE AND DATE(NOW())>StartDate AND DATE(NOW())<EndDate ORDER BY QuanZhong DESC
+DEBUG 2016-06-30 08:14:29,593 (GetQueryResult.java:175) - SELECT ID, MingCheng, ShuoMing, ImgURL FROM huodong WHERE TingYong= FALSE AND DATE(NOW())>StartDate AND DATE(NOW())<EndDate ORDER BY QuanZhong DESC
+INFO 2016-06-30 08:14:29,595 (PropertiesHandler.java:32) - source.name:jdbc/WeiXinMallDB
+DEBUG 2016-06-30 08:16:01,026 (GetQueryResult.java:79) - 请求参数列表: infoType=门店显示
+DEBUG 2016-06-30 08:16:01,026 (GetQueryResult.java:79) - 请求参数列表: engine=static
+INFO 2016-06-30 08:16:01,027 (QueryingSQLGenerator.java:180) - SELECT ID, MingCheng, LogoURL FROM mendian WHERE TingYong= FALSE AND ShiFouShengXiao= TRUE ORDER BY QuanZhong DESC LIMIT 5
+DEBUG 2016-06-30 08:16:01,027 (GetQueryResult.java:175) - SELECT ID, MingCheng, LogoURL FROM mendian WHERE TingYong= FALSE AND ShiFouShengXiao= TRUE ORDER BY QuanZhong DESC LIMIT 5
+INFO 2016-06-30 08:16:01,028 (PropertiesHandler.java:32) - source.name:jdbc/WeiXinMallDB
+DEBUG 2016-06-30 08:16:01,120 (GetQueryResult.java:79) - 请求参数列表: infoType=商品显示
+DEBUG 2016-06-30 08:16:01,120 (GetQueryResult.java:79) - 请求参数列表: engine=static
+INFO 2016-06-30 08:16:01,121 (QueryingSQLGenerator.java:180) - SELECT ID, MingCheng, JiaGe, DanWei, ImgURL FROM shangpin WHERE TingYong= FALSE ORDER BY QuanZhong DESC LIMIT 10
+DEBUG 2016-06-30 08:16:01,121 (GetQueryResult.java:175) - SELECT ID, MingCheng, JiaGe, DanWei, ImgURL FROM shangpin WHERE TingYong= FALSE ORDER BY QuanZhong DESC LIMIT 10
+INFO 2016-06-30 08:16:01,121 (PropertiesHandler.java:32) - source.name:jdbc/WeiXinMallDB
+DEBUG 2016-06-30 08:16:01,272 (GetQueryResult.java:79) - 请求参数列表: infoType=所有活动
+DEBUG 2016-06-30 08:16:01,273 (GetQueryResult.java:79) - 请求参数列表: engine=static
+INFO 2016-06-30 08:16:01,273 (QueryingSQLGenerator.java:180) - SELECT ID, MingCheng, ShuoMing, ImgURL FROM huodong WHERE TingYong= FALSE AND DATE(NOW())>StartDate AND DATE(NOW())<EndDate ORDER BY QuanZhong DESC
+DEBUG 2016-06-30 08:16:01,273 (GetQueryResult.java:175) - SELECT ID, MingCheng, ShuoMing, ImgURL FROM huodong WHERE TingYong= FALSE AND DATE(NOW())>StartDate AND DATE(NOW())<EndDate ORDER BY QuanZhong DESC
+INFO 2016-06-30 08:16:01,279 (PropertiesHandler.java:32) - source.name:jdbc/WeiXinMallDB
+DEBUG 2016-06-30 08:16:08,286 (GetQueryResult.java:79) - 请求参数列表: infoType=门店信息
+DEBUG 2016-06-30 08:16:08,287 (GetQueryResult.java:79) - 请求参数列表: engine=static
+DEBUG 2016-06-30 08:16:08,287 (GetQueryResult.java:79) - 请求参数列表: id=1
+INFO 2016-06-30 08:16:08,287 (QueryingSQLGenerator.java:180) - SELECT ID, MingCheng, DiZhi, DianHua, LogoURL, BnanerURL, JianJie FROM mendian WHERE TingYong=FALSE AND id=1
+DEBUG 2016-06-30 08:16:08,287 (GetQueryResult.java:175) - SELECT ID, MingCheng, DiZhi, DianHua, LogoURL, BnanerURL, JianJie FROM mendian WHERE TingYong=FALSE AND id=1
+INFO 2016-06-30 08:16:08,288 (PropertiesHandler.java:32) - source.name:jdbc/WeiXinMallDB
+DEBUG 2016-06-30 08:16:08,420 (GetQueryResult.java:79) - 请求参数列表: infoType=门店活动
+DEBUG 2016-06-30 08:16:08,420 (GetQueryResult.java:79) - 请求参数列表: engine=static
+DEBUG 2016-06-30 08:16:08,421 (GetQueryResult.java:79) - 请求参数列表: id=1
+INFO 2016-06-30 08:16:08,421 (QueryingSQLGenerator.java:180) - SELECT ID, MingCheng, ImgURL, ShuoMing FROM huodong WHERE TingYong= FALSE AND DATE(NOW())>StartDate AND DATE(NOW())<EndDate AND StoreID=1 ORDER BY QuanZhong DESC
+DEBUG 2016-06-30 08:16:08,421 (GetQueryResult.java:175) - SELECT ID, MingCheng, ImgURL, ShuoMing FROM huodong WHERE TingYong= FALSE AND DATE(NOW())>StartDate AND DATE(NOW())<EndDate AND StoreID=1 ORDER BY QuanZhong DESC
+INFO 2016-06-30 08:16:08,422 (PropertiesHandler.java:32) - source.name:jdbc/WeiXinMallDB
+DEBUG 2016-06-30 08:16:08,532 (GetQueryResult.java:79) - 请求参数列表: infoType=门店商品
+DEBUG 2016-06-30 08:16:08,533 (GetQueryResult.java:79) - 请求参数列表: engine=static
+DEBUG 2016-06-30 08:16:08,533 (GetQueryResult.java:79) - 请求参数列表: id=1
+INFO 2016-06-30 08:16:08,533 (QueryingSQLGenerator.java:180) - SELECT ID, MingCheng, JiaGe, DanWei, ImgURL FROM shangpin WHERE TingYong=FALSE AND MenDianID=1 ORDER BY PaiXu DESC
+DEBUG 2016-06-30 08:16:08,533 (GetQueryResult.java:175) - SELECT ID, MingCheng, JiaGe, DanWei, ImgURL FROM shangpin WHERE TingYong=FALSE AND MenDianID=1 ORDER BY PaiXu DESC
+INFO 2016-06-30 08:16:08,534 (PropertiesHandler.java:32) - source.name:jdbc/WeiXinMallDB
+DEBUG 2016-06-30 08:16:13,435 (GetQueryResult.java:79) - 请求参数列表: infoType=门店显示
+DEBUG 2016-06-30 08:16:13,435 (GetQueryResult.java:79) - 请求参数列表: engine=static
+INFO 2016-06-30 08:16:13,436 (QueryingSQLGenerator.java:180) - SELECT ID, MingCheng, LogoURL FROM mendian WHERE TingYong= FALSE AND ShiFouShengXiao= TRUE ORDER BY QuanZhong DESC LIMIT 5
+DEBUG 2016-06-30 08:16:13,436 (GetQueryResult.java:175) - SELECT ID, MingCheng, LogoURL FROM mendian WHERE TingYong= FALSE AND ShiFouShengXiao= TRUE ORDER BY QuanZhong DESC LIMIT 5
+INFO 2016-06-30 08:16:13,436 (PropertiesHandler.java:32) - source.name:jdbc/WeiXinMallDB
+DEBUG 2016-06-30 08:16:13,512 (GetQueryResult.java:79) - 请求参数列表: infoType=商品显示
+DEBUG 2016-06-30 08:16:13,513 (GetQueryResult.java:79) - 请求参数列表: engine=static
+INFO 2016-06-30 08:16:13,513 (QueryingSQLGenerator.java:180) - SELECT ID, MingCheng, JiaGe, DanWei, ImgURL FROM shangpin WHERE TingYong= FALSE ORDER BY QuanZhong DESC LIMIT 10
+DEBUG 2016-06-30 08:16:13,514 (GetQueryResult.java:175) - SELECT ID, MingCheng, JiaGe, DanWei, ImgURL FROM shangpin WHERE TingYong= FALSE ORDER BY QuanZhong DESC LIMIT 10
+INFO 2016-06-30 08:16:13,514 (PropertiesHandler.java:32) - source.name:jdbc/WeiXinMallDB
+DEBUG 2016-06-30 08:16:13,600 (GetQueryResult.java:79) - 请求参数列表: infoType=所有活动
+DEBUG 2016-06-30 08:16:13,600 (GetQueryResult.java:79) - 请求参数列表: engine=static
+INFO 2016-06-30 08:16:13,600 (QueryingSQLGenerator.java:180) - SELECT ID, MingCheng, ShuoMing, ImgURL FROM huodong WHERE TingYong= FALSE AND DATE(NOW())>StartDate AND DATE(NOW())<EndDate ORDER BY QuanZhong DESC
+DEBUG 2016-06-30 08:16:13,601 (GetQueryResult.java:175) - SELECT ID, MingCheng, ShuoMing, ImgURL FROM huodong WHERE TingYong= FALSE AND DATE(NOW())>StartDate AND DATE(NOW())<EndDate ORDER BY QuanZhong DESC
+INFO 2016-06-30 08:16:13,601 (PropertiesHandler.java:32) - source.name:jdbc/WeiXinMallDB
+DEBUG 2016-06-30 08:16:17,140 (GetQueryResult.java:79) - 请求参数列表: infoType=活动信息
+DEBUG 2016-06-30 08:16:17,140 (GetQueryResult.java:79) - 请求参数列表: engine=static
+DEBUG 2016-06-30 08:16:17,141 (GetQueryResult.java:79) - 请求参数列表: id=1
+INFO 2016-06-30 08:16:17,141 (QueryingSQLGenerator.java:180) - SELECT a.MingCheng, b.Mingcheng AS StoreMingCheng, a.StartDate, a.EndDate, a.ImgURL, a.ShuoMing, Preducts FROM huodong a LEFT JOIN mendian b on a.StoreID=b.ID WHERE a.TingYong=FALSE AND a.ID =1
+DEBUG 2016-06-30 08:16:17,141 (GetQueryResult.java:175) - SELECT a.MingCheng, b.Mingcheng AS StoreMingCheng, a.StartDate, a.EndDate, a.ImgURL, a.ShuoMing, Preducts FROM huodong a LEFT JOIN mendian b on a.StoreID=b.ID WHERE a.TingYong=FALSE AND a.ID =1
+INFO 2016-06-30 08:16:17,142 (PropertiesHandler.java:32) - source.name:jdbc/WeiXinMallDB
+DEBUG 2016-06-30 08:16:17,239 (GetQueryResult.java:79) - 请求参数列表: infoType=活动商品
+DEBUG 2016-06-30 08:16:17,240 (GetQueryResult.java:79) - 请求参数列表: engine=static
+DEBUG 2016-06-30 08:16:17,240 (GetQueryResult.java:79) - 请求参数列表: Preducts=1,2,3
+INFO 2016-06-30 08:16:17,240 (QueryingSQLGenerator.java:180) - SELECT ID, MingCheng, HuoDongJia, YuanJia, DanWei, ImgURL FROM shangpin WHERE TingYong=FALSE AND ID IN (1,2,3)
+DEBUG 2016-06-30 08:16:17,241 (GetQueryResult.java:175) - SELECT ID, MingCheng, HuoDongJia, YuanJia, DanWei, ImgURL FROM shangpin WHERE TingYong=FALSE AND ID IN (1,2,3)
+INFO 2016-06-30 08:16:17,241 (PropertiesHandler.java:32) - source.name:jdbc/WeiXinMallDB
+DEBUG 2016-06-30 08:16:23,747 (GetQueryResult.java:79) - 请求参数列表: infoType=门店显示
+DEBUG 2016-06-30 08:16:23,748 (GetQueryResult.java:79) - 请求参数列表: engine=static
+INFO 2016-06-30 08:16:23,748 (QueryingSQLGenerator.java:180) - SELECT ID, MingCheng, LogoURL FROM mendian WHERE TingYong= FALSE AND ShiFouShengXiao= TRUE ORDER BY QuanZhong DESC LIMIT 5
+DEBUG 2016-06-30 08:16:23,749 (GetQueryResult.java:175) - SELECT ID, MingCheng, LogoURL FROM mendian WHERE TingYong= FALSE AND ShiFouShengXiao= TRUE ORDER BY QuanZhong DESC LIMIT 5
+INFO 2016-06-30 08:16:23,749 (PropertiesHandler.java:32) - source.name:jdbc/WeiXinMallDB
+DEBUG 2016-06-30 08:16:23,832 (GetQueryResult.java:79) - 请求参数列表: infoType=商品显示
+DEBUG 2016-06-30 08:16:23,833 (GetQueryResult.java:79) - 请求参数列表: engine=static
+INFO 2016-06-30 08:16:23,833 (QueryingSQLGenerator.java:180) - SELECT ID, MingCheng, JiaGe, DanWei, ImgURL FROM shangpin WHERE TingYong= FALSE ORDER BY QuanZhong DESC LIMIT 10
+DEBUG 2016-06-30 08:16:23,834 (GetQueryResult.java:175) - SELECT ID, MingCheng, JiaGe, DanWei, ImgURL FROM shangpin WHERE TingYong= FALSE ORDER BY QuanZhong DESC LIMIT 10
+INFO 2016-06-30 08:16:23,835 (PropertiesHandler.java:32) - source.name:jdbc/WeiXinMallDB
+DEBUG 2016-06-30 08:16:23,927 (GetQueryResult.java:79) - 请求参数列表: infoType=所有活动
+DEBUG 2016-06-30 08:16:23,928 (GetQueryResult.java:79) - 请求参数列表: engine=static
+INFO 2016-06-30 08:16:23,928 (QueryingSQLGenerator.java:180) - SELECT ID, MingCheng, ShuoMing, ImgURL FROM huodong WHERE TingYong= FALSE AND DATE(NOW())>StartDate AND DATE(NOW())<EndDate ORDER BY QuanZhong DESC
+DEBUG 2016-06-30 08:16:23,928 (GetQueryResult.java:175) - SELECT ID, MingCheng, ShuoMing, ImgURL FROM huodong WHERE TingYong= FALSE AND DATE(NOW())>StartDate AND DATE(NOW())<EndDate ORDER BY QuanZhong DESC
+INFO 2016-06-30 08:16:23,929 (PropertiesHandler.java:32) - source.name:jdbc/WeiXinMallDB
+DEBUG 2016-06-30 08:16:26,201 (GetQueryResult.java:79) - 请求参数列表: infoType=门店信息
+DEBUG 2016-06-30 08:16:26,201 (GetQueryResult.java:79) - 请求参数列表: engine=static
+DEBUG 2016-06-30 08:16:26,202 (GetQueryResult.java:79) - 请求参数列表: id=2
+INFO 2016-06-30 08:16:26,202 (QueryingSQLGenerator.java:180) - SELECT ID, MingCheng, DiZhi, DianHua, LogoURL, BnanerURL, JianJie FROM mendian WHERE TingYong=FALSE AND id=2
+DEBUG 2016-06-30 08:16:26,202 (GetQueryResult.java:175) - SELECT ID, MingCheng, DiZhi, DianHua, LogoURL, BnanerURL, JianJie FROM mendian WHERE TingYong=FALSE AND id=2
+INFO 2016-06-30 08:16:26,203 (PropertiesHandler.java:32) - source.name:jdbc/WeiXinMallDB
+DEBUG 2016-06-30 08:16:26,295 (GetQueryResult.java:79) - 请求参数列表: infoType=门店活动
+DEBUG 2016-06-30 08:16:26,295 (GetQueryResult.java:79) - 请求参数列表: engine=static
+DEBUG 2016-06-30 08:16:26,295 (GetQueryResult.java:79) - 请求参数列表: id=2
+INFO 2016-06-30 08:16:26,296 (QueryingSQLGenerator.java:180) - SELECT ID, MingCheng, ImgURL, ShuoMing FROM huodong WHERE TingYong= FALSE AND DATE(NOW())>StartDate AND DATE(NOW())<EndDate AND StoreID=2 ORDER BY QuanZhong DESC
+DEBUG 2016-06-30 08:16:26,296 (GetQueryResult.java:175) - SELECT ID, MingCheng, ImgURL, ShuoMing FROM huodong WHERE TingYong= FALSE AND DATE(NOW())>StartDate AND DATE(NOW())<EndDate AND StoreID=2 ORDER BY QuanZhong DESC
+INFO 2016-06-30 08:16:26,297 (PropertiesHandler.java:32) - source.name:jdbc/WeiXinMallDB
+INFO 2016-06-30 08:16:26,298 (GetQueryResult.java:209) - 查询没有返回任何结果！
+DEBUG 2016-06-30 08:16:26,382 (GetQueryResult.java:79) - 请求参数列表: infoType=门店商品
+DEBUG 2016-06-30 08:16:26,382 (GetQueryResult.java:79) - 请求参数列表: engine=static
+DEBUG 2016-06-30 08:16:26,382 (GetQueryResult.java:79) - 请求参数列表: id=2
+INFO 2016-06-30 08:16:26,383 (QueryingSQLGenerator.java:180) - SELECT ID, MingCheng, JiaGe, DanWei, ImgURL FROM shangpin WHERE TingYong=FALSE AND MenDianID=2 ORDER BY PaiXu DESC
+DEBUG 2016-06-30 08:16:26,383 (GetQueryResult.java:175) - SELECT ID, MingCheng, JiaGe, DanWei, ImgURL FROM shangpin WHERE TingYong=FALSE AND MenDianID=2 ORDER BY PaiXu DESC
+INFO 2016-06-30 08:16:26,384 (PropertiesHandler.java:32) - source.name:jdbc/WeiXinMallDB
+INFO 2016-06-30 08:16:26,386 (GetQueryResult.java:209) - 查询没有返回任何结果！
+DEBUG 2016-06-30 08:16:29,881 (GetQueryResult.java:79) - 请求参数列表: infoType=门店显示
+DEBUG 2016-06-30 08:16:29,882 (GetQueryResult.java:79) - 请求参数列表: engine=static
+INFO 2016-06-30 08:16:29,883 (QueryingSQLGenerator.java:180) - SELECT ID, MingCheng, LogoURL FROM mendian WHERE TingYong= FALSE AND ShiFouShengXiao= TRUE ORDER BY QuanZhong DESC LIMIT 5
+DEBUG 2016-06-30 08:16:29,883 (GetQueryResult.java:175) - SELECT ID, MingCheng, LogoURL FROM mendian WHERE TingYong= FALSE AND ShiFouShengXiao= TRUE ORDER BY QuanZhong DESC LIMIT 5
+INFO 2016-06-30 08:16:29,883 (PropertiesHandler.java:32) - source.name:jdbc/WeiXinMallDB
+DEBUG 2016-06-30 08:16:29,994 (GetQueryResult.java:79) - 请求参数列表: infoType=商品显示
+DEBUG 2016-06-30 08:16:29,994 (GetQueryResult.java:79) - 请求参数列表: engine=static
+INFO 2016-06-30 08:16:29,995 (QueryingSQLGenerator.java:180) - SELECT ID, MingCheng, JiaGe, DanWei, ImgURL FROM shangpin WHERE TingYong= FALSE ORDER BY QuanZhong DESC LIMIT 10
+DEBUG 2016-06-30 08:16:29,995 (GetQueryResult.java:175) - SELECT ID, MingCheng, JiaGe, DanWei, ImgURL FROM shangpin WHERE TingYong= FALSE ORDER BY QuanZhong DESC LIMIT 10
+INFO 2016-06-30 08:16:29,995 (PropertiesHandler.java:32) - source.name:jdbc/WeiXinMallDB
+DEBUG 2016-06-30 08:16:30,072 (GetQueryResult.java:79) - 请求参数列表: infoType=所有活动
+DEBUG 2016-06-30 08:16:30,073 (GetQueryResult.java:79) - 请求参数列表: engine=static
+INFO 2016-06-30 08:16:30,073 (QueryingSQLGenerator.java:180) - SELECT ID, MingCheng, ShuoMing, ImgURL FROM huodong WHERE TingYong= FALSE AND DATE(NOW())>StartDate AND DATE(NOW())<EndDate ORDER BY QuanZhong DESC
+DEBUG 2016-06-30 08:16:30,074 (GetQueryResult.java:175) - SELECT ID, MingCheng, ShuoMing, ImgURL FROM huodong WHERE TingYong= FALSE AND DATE(NOW())>StartDate AND DATE(NOW())<EndDate ORDER BY QuanZhong DESC
+INFO 2016-06-30 08:16:30,074 (PropertiesHandler.java:32) - source.name:jdbc/WeiXinMallDB
+DEBUG 2016-06-30 08:16:31,379 (GetQueryResult.java:79) - 请求参数列表: infoType=门店信息
+DEBUG 2016-06-30 08:16:31,379 (GetQueryResult.java:79) - 请求参数列表: engine=static
+DEBUG 2016-06-30 08:16:31,379 (GetQueryResult.java:79) - 请求参数列表: id=3
+INFO 2016-06-30 08:16:31,380 (QueryingSQLGenerator.java:180) - SELECT ID, MingCheng, DiZhi, DianHua, LogoURL, BnanerURL, JianJie FROM mendian WHERE TingYong=FALSE AND id=3
+DEBUG 2016-06-30 08:16:31,380 (GetQueryResult.java:175) - SELECT ID, MingCheng, DiZhi, DianHua, LogoURL, BnanerURL, JianJie FROM mendian WHERE TingYong=FALSE AND id=3
+INFO 2016-06-30 08:16:31,380 (PropertiesHandler.java:32) - source.name:jdbc/WeiXinMallDB
+DEBUG 2016-06-30 08:16:31,467 (GetQueryResult.java:79) - 请求参数列表: infoType=门店活动
+DEBUG 2016-06-30 08:16:31,468 (GetQueryResult.java:79) - 请求参数列表: engine=static
+DEBUG 2016-06-30 08:16:31,468 (GetQueryResult.java:79) - 请求参数列表: id=3
+INFO 2016-06-30 08:16:31,468 (QueryingSQLGenerator.java:180) - SELECT ID, MingCheng, ImgURL, ShuoMing FROM huodong WHERE TingYong= FALSE AND DATE(NOW())>StartDate AND DATE(NOW())<EndDate AND StoreID=3 ORDER BY QuanZhong DESC
+DEBUG 2016-06-30 08:16:31,468 (GetQueryResult.java:175) - SELECT ID, MingCheng, ImgURL, ShuoMing FROM huodong WHERE TingYong= FALSE AND DATE(NOW())>StartDate AND DATE(NOW())<EndDate AND StoreID=3 ORDER BY QuanZhong DESC
+INFO 2016-06-30 08:16:31,469 (PropertiesHandler.java:32) - source.name:jdbc/WeiXinMallDB
+INFO 2016-06-30 08:16:31,470 (GetQueryResult.java:209) - 查询没有返回任何结果！
+DEBUG 2016-06-30 08:16:31,555 (GetQueryResult.java:79) - 请求参数列表: infoType=门店商品
+DEBUG 2016-06-30 08:16:31,555 (GetQueryResult.java:79) - 请求参数列表: engine=static
+DEBUG 2016-06-30 08:16:31,555 (GetQueryResult.java:79) - 请求参数列表: id=3
+INFO 2016-06-30 08:16:31,556 (QueryingSQLGenerator.java:180) - SELECT ID, MingCheng, JiaGe, DanWei, ImgURL FROM shangpin WHERE TingYong=FALSE AND MenDianID=3 ORDER BY PaiXu DESC
+DEBUG 2016-06-30 08:16:31,556 (GetQueryResult.java:175) - SELECT ID, MingCheng, JiaGe, DanWei, ImgURL FROM shangpin WHERE TingYong=FALSE AND MenDianID=3 ORDER BY PaiXu DESC
+INFO 2016-06-30 08:16:31,557 (PropertiesHandler.java:32) - source.name:jdbc/WeiXinMallDB
+INFO 2016-06-30 08:16:31,558 (GetQueryResult.java:209) - 查询没有返回任何结果！
+DEBUG 2016-06-30 08:16:35,576 (GetQueryResult.java:79) - 请求参数列表: infoType=门店显示
+DEBUG 2016-06-30 08:16:35,577 (GetQueryResult.java:79) - 请求参数列表: engine=static
+INFO 2016-06-30 08:16:35,578 (QueryingSQLGenerator.java:180) - SELECT ID, MingCheng, LogoURL FROM mendian WHERE TingYong= FALSE AND ShiFouShengXiao= TRUE ORDER BY QuanZhong DESC LIMIT 5
+DEBUG 2016-06-30 08:16:35,578 (GetQueryResult.java:175) - SELECT ID, MingCheng, LogoURL FROM mendian WHERE TingYong= FALSE AND ShiFouShengXiao= TRUE ORDER BY QuanZhong DESC LIMIT 5
+INFO 2016-06-30 08:16:35,578 (PropertiesHandler.java:32) - source.name:jdbc/WeiXinMallDB
+DEBUG 2016-06-30 08:16:35,667 (GetQueryResult.java:79) - 请求参数列表: infoType=商品显示
+DEBUG 2016-06-30 08:16:35,667 (GetQueryResult.java:79) - 请求参数列表: engine=static
+INFO 2016-06-30 08:16:35,668 (QueryingSQLGenerator.java:180) - SELECT ID, MingCheng, JiaGe, DanWei, ImgURL FROM shangpin WHERE TingYong= FALSE ORDER BY QuanZhong DESC LIMIT 10
+DEBUG 2016-06-30 08:16:35,668 (GetQueryResult.java:175) - SELECT ID, MingCheng, JiaGe, DanWei, ImgURL FROM shangpin WHERE TingYong= FALSE ORDER BY QuanZhong DESC LIMIT 10
+INFO 2016-06-30 08:16:35,669 (PropertiesHandler.java:32) - source.name:jdbc/WeiXinMallDB
+DEBUG 2016-06-30 08:16:35,781 (GetQueryResult.java:79) - 请求参数列表: infoType=所有活动
+DEBUG 2016-06-30 08:16:35,781 (GetQueryResult.java:79) - 请求参数列表: engine=static
+INFO 2016-06-30 08:16:35,782 (QueryingSQLGenerator.java:180) - SELECT ID, MingCheng, ShuoMing, ImgURL FROM huodong WHERE TingYong= FALSE AND DATE(NOW())>StartDate AND DATE(NOW())<EndDate ORDER BY QuanZhong DESC
+DEBUG 2016-06-30 08:16:35,782 (GetQueryResult.java:175) - SELECT ID, MingCheng, ShuoMing, ImgURL FROM huodong WHERE TingYong= FALSE AND DATE(NOW())>StartDate AND DATE(NOW())<EndDate ORDER BY QuanZhong DESC
+INFO 2016-06-30 08:16:35,783 (PropertiesHandler.java:32) - source.name:jdbc/WeiXinMallDB
+DEBUG 2016-06-30 08:16:39,512 (GetQueryResult.java:79) - 请求参数列表: infoType=活动信息
+DEBUG 2016-06-30 08:16:39,513 (GetQueryResult.java:79) - 请求参数列表: engine=static
+DEBUG 2016-06-30 08:16:39,513 (GetQueryResult.java:79) - 请求参数列表: id=1
+INFO 2016-06-30 08:16:39,513 (QueryingSQLGenerator.java:180) - SELECT a.MingCheng, b.Mingcheng AS StoreMingCheng, a.StartDate, a.EndDate, a.ImgURL, a.ShuoMing, Preducts FROM huodong a LEFT JOIN mendian b on a.StoreID=b.ID WHERE a.TingYong=FALSE AND a.ID =1
+DEBUG 2016-06-30 08:16:39,513 (GetQueryResult.java:175) - SELECT a.MingCheng, b.Mingcheng AS StoreMingCheng, a.StartDate, a.EndDate, a.ImgURL, a.ShuoMing, Preducts FROM huodong a LEFT JOIN mendian b on a.StoreID=b.ID WHERE a.TingYong=FALSE AND a.ID =1
+INFO 2016-06-30 08:16:39,514 (PropertiesHandler.java:32) - source.name:jdbc/WeiXinMallDB
+DEBUG 2016-06-30 08:16:39,607 (GetQueryResult.java:79) - 请求参数列表: infoType=活动商品
+DEBUG 2016-06-30 08:16:39,608 (GetQueryResult.java:79) - 请求参数列表: engine=static
+DEBUG 2016-06-30 08:16:39,608 (GetQueryResult.java:79) - 请求参数列表: Preducts=1,2,3
+INFO 2016-06-30 08:16:39,608 (QueryingSQLGenerator.java:180) - SELECT ID, MingCheng, HuoDongJia, YuanJia, DanWei, ImgURL FROM shangpin WHERE TingYong=FALSE AND ID IN (1,2,3)
+DEBUG 2016-06-30 08:16:39,608 (GetQueryResult.java:175) - SELECT ID, MingCheng, HuoDongJia, YuanJia, DanWei, ImgURL FROM shangpin WHERE TingYong=FALSE AND ID IN (1,2,3)
+INFO 2016-06-30 08:16:39,609 (PropertiesHandler.java:32) - source.name:jdbc/WeiXinMallDB

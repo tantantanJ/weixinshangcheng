@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <mime-mapping>
+    <extension>htm</extension>
+    <mime-type>text/html;charset=utf-8</mime-type>
+  </mime-mapping>
+  <mime-mapping>
+    <extension>html</extension>
+    <mime-type>text/html;charset=utf-8</mime-type>
+  </mime-mapping>
+  <display-name>Plusyoou</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+  <listener>
+     <listener-class>com.plusyoou.servicemis.listeners.AppContextInit</listener-class>
+  </listener>
+    <servlet>
+        <description>通过查询语句生成引擎产生SQL语句并返回语句执行结果</description>
+        <display-name>getQueryResult</display-name>
+        <servlet-name>getQueryResult</servlet-name>
+        <servlet-class>com.plusyoou.servicemis.services.GetQueryResult</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>getQueryResult</servlet-name>
+        <url-pattern>/getQueryResult.do</url-pattern>
+    </servlet-mapping>
+
+  <servlet>
+    <description>微信接口</description>
+    <display-name>weixin</display-name>
+    <servlet-name>weixin</servlet-name>
+    <servlet-class>com.plusyoou.WeiXin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>weixin</servlet-name>
+    <url-pattern>/weixin</url-pattern>
+  </servlet-mapping>
+  
+</web-app>

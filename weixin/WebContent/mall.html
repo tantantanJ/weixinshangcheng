@@ -1,0 +1,114 @@
+
+<!-- HTTP静态资源访问路径配置 -->
+<!-- HTTPS静态资源访问路径配置-->
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
+<title>PLUSYOOU</title>
+<link rel="stylesheet" href="style/main.css"/>
+<script src="./zepto.min.js"></script>
+<script src="./utils.js"></script>
+<script src="./mall.js"></script>
+</head>
+<body>
+
+
+<!--公告-->
+<section class="notice" >
+    <div><a href="">公告</a></div>
+    <div class="">
+        <ul >
+            <li ><a href="">【系统公告】</a></li>
+        </ul>
+    </div>
+</section>
+
+<!--活动-->
+<section class="fence">
+    <header class="h">
+      <h3 class="title"><span>最新活动</span></h3>
+    </header>
+	<div id="slider" class="swiper-container">
+	    <div id="huoDong" class="list swiper-wrapper" ></div>
+        <div class="swiper-pagination" ></div>
+    </div>
+</section>
+
+<!-- 店铺 -->
+<section class="fence">
+    <header class="h">
+      <h3 class="title"><span>店铺推荐</span></h3>
+    </header>
+    <div class="swiper-container">
+      <div id="storeView" class="swiper-wrapper" > </div> 
+    <div class="swiper-pagination" style="display:none;"></div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+<!--商品 -->
+<section class="fence">
+    <header class="h">
+      <h3 class="title"><span>商品推荐</span></h3>
+    </header>
+      <ul id="productView" class="list">
+      </ul>
+
+</section>
+
+<div style="height:5em;"></div>
+<div class="nav">
+  <footer>
+    <ul>
+      <li ><a href=""><span>主页</span></a></li>
+      <li ><a href=""><span>找店铺</span></a></li>
+      <li ><a href=""><span>找商品</span></a></li>
+      <li ><a href=""><span>个人中心</span></a></li>
+    </ul>
+  </footer>
+</div>
+
+
+
+    <script src="./swiper-3.3.1.jquery.min.js"></script>   
+    <link rel="stylesheet" href="style/swiper-3.3.1.min.css">
+	<script type="text/javascript"> 
+		var count=$("#storeView li").length;
+			if(count==2){
+				$("#storeView").addClass("list2");
+		}
+			else if(count==3){
+				$("#storeView").addClass("list3");
+		}
+			else if(count==4){
+				$("#storeView").addClass("list4");
+			}
+
+		var count=$("#productView li").length;
+			if(count==2){
+				$("#productView").addClass("list2");
+		}
+			else if(count==3){
+				$("#productView").addClass("list3");
+		}
+			else if(count==4){
+				$("#productView").addClass("list4");
+			}
+	</script> 
+    <script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        paginationClickable: true
+    });
+    </script>
+</body>
+
+</html>
